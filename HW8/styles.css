@@ -1,0 +1,47 @@
+.nav-pills li {
+    margin-left: 0; //use whatever you want
+} 
+.table.no-border th{
+    border-width: 0;
+    margin: 10;
+}
+table{
+margin: 20;
+    padding: 20;
+    
+}
+div {
+  transition: all linear 0.5s;
+}
+
+.ng-hide {
+  height: 0;
+}
+
+
+.btn btn-primary previous{
+  margin:auto;
+  display:block;
+}
+.btn btn-primary next{
+  margin:auto;
+  display:block;
+}
+
+span.block {
+    display:block;
+}
+
+.animate-hide {
+ -webkit-transition:all  2s;
+    -moz-transition:all  2s;
+    -o-transition:all  2s;
+    transition:all  2s;
+ 
+}
+
+.animate-hide.ng-hide {
+  left: -100%;
+  opacity:0;
+  padding:0 10px;
+}
